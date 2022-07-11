@@ -1,0 +1,22 @@
+<scenario>
+	<at t="110">
+		<set-channel-param src-module="A29" src-gate="pppg[42]" dest-gate="A137" par="datarate" value="10bps"/>
+		<set-channel-param src-module="A137" src-gate="pppg[1]" dest-gate="A29" par="datarate" value="10bps"/>
+	</at>
+	<at t="310">
+		<set-channel-param src-module="A5" src-gate="pppg[14]" dest-gate="A71" par="datarate" value="10bps"/>
+		<set-channel-param src-module="A71" src-gate="pppg[0]" dest-gate="A5" par="datarate" value="10bps"/>
+	</at>
+	<at t="510">
+		<set-channel-param src-module="A2" src-gate="pppg[1]" dest-gate="A4" par="datarate" value="10bps"/>
+		<set-channel-param src-module="A4" src-gate="pppg[0]" dest-gate="A2" par="datarate" value="10bps"/>
+	</at>
+	<at t="710">
+		<set-channel-param src-module="A2" src-gate="pppg[6]" dest-gate="A9" par="datarate" value="10bps"/>
+		<set-channel-param src-module="A9" src-gate="pppg[0]" dest-gate="A2" par="datarate" value="10bps"/>
+	</at>
+	<at t="910">
+		<set-channel-param src-module="A5" src-gate="pppg[16]" dest-gate="A73" par="datarate" value="10bps"/>
+		<set-channel-param src-module="A73" src-gate="pppg[0]" dest-gate="A5" par="datarate" value="10bps"/>
+	</at>
+</scenario>
